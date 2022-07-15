@@ -55,7 +55,7 @@ end, 10, 5, 3) -- Time, Gridsize (5, 6, 7, 8, 9, 10), IncorrectBlocks
 
 ## Scrambler
 ```
-eexports['ps-ui']:Scrambler(function(success)
+exports['ps-ui']:Scrambler(function(success)
     if success then
         print("success")
 	else
